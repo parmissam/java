@@ -1,0 +1,41 @@
+package project_1;
+import java.util.Scanner;
+public class Tamrin11 {
+
+	public static void main(String[] args) {
+		Scanner input=new Scanner (System.in);
+		int a,b=1,c,i,d=2,x;
+		x=input.nextInt();
+		a=2*(x-1);
+		for(b=1;b<=x;b++) {
+			System.out.println();
+			for(c=a;c>=1;c--) {
+				System.out.print(" ");
+			}
+			for(i=1;i<=b;i++) {
+				System.out.print(" "+i);
+		}
+			for(i=b-1;i>=1;i--) {
+				System.out.print(" "+i);
+			}
+			
+			
+			a-=2;}
+		
+		for(b=x-1;b>=1;b--) {
+			System.out.println();
+			for(c=1;c<=d;c++) {
+				System.out.print(" ");
+			}
+			for(i=1;i<=b;i++) {
+				System.out.print(" "+i);
+		}
+			for(i=b-1;i>=1;i--) {
+				System.out.print(" "+i);
+			}
+			
+			
+			d+=2;}
+	}
+
+}
