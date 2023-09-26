@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: ir.ac.kntu.style.CheckStyleTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.016 s <<< FAILURE! - in ir.ac.kntu.style.CheckStyleTest
+testCheckStyleIndentation(ir.ac.kntu.style.CheckStyleTest)  Time elapsed: 0.013 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.xml.sax.InputSource.getPublicId()" because "inputSource" is null
+	at ir.ac.kntu.style.CheckStyleTest.testCheckStyleIndentation(CheckStyleTest.java:71)
+
+testCheckStyleNaming(ir.ac.kntu.style.CheckStyleTest)  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.xml.sax.InputSource.getPublicId()" because "inputSource" is null
+	at ir.ac.kntu.style.CheckStyleTest.testCheckStyleNaming(CheckStyleTest.java:142)
+
